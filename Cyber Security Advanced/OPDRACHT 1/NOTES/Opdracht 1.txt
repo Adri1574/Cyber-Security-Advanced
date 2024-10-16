@@ -1,0 +1,6 @@
+Stappenplan OPA:
+1. OPA toevoegen in docker -> surf naar localhost:8181 om te zien dat de pagina draait
+2. Middleware toevoegen in API -> https://github.com/build-security/OPA-AspDotNetCore-Middleware
+3. Een simpel rego maken om testen of alles werkt (default allow en later verander naar default deny) -> dan werkt uw Middleware
+4. Extend uw rego (zonder claims te gebruiken) -> method, path, body (voldoende voor hem te slagen voor dit labo)
+5. Extend uw rego met claims (max punten voor dit labo)
